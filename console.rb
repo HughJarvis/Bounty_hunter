@@ -18,3 +18,17 @@ bounty1.save()
     })
 
 bounty2.save()
+
+Bounty.all()
+
+bounty2.favourite_weapon = 'slotted spoon'
+
+bounty2.update()
+
+binding.pry
+
+bounty1.delete_one
+
+Bounty.find_by_name('Pygar')
+
+p "hugh"
